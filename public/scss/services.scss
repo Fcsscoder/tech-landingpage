@@ -1,0 +1,39 @@
+@import "./variables.scss";
+
+.services-container {
+    margin-top: 8rem;
+    padding: 5rem 0;
+    background-color: $dark-blue;
+
+    ul {
+        display: flex;
+        list-style: none;
+        text-align: center;
+        margin: 0 auto;
+
+        li{
+            color: $white-color;
+            flex: 1 1 200px;
+            padding: 2.5rem;
+            
+             i {
+                font-size: 3.2rem;
+                margin-bottom: 0.8rem;
+                color: $white-color;
+                transition: 0.3s;
+                    &:hover{
+                        transform: scale(1.2);
+                    }
+                }
+
+            h3 {
+                margin: 0 0 1.2rem 0;
+            }
+
+            p {
+                line-height: 1.8rem;
+                font-family: 'Montserrat', sans-serif;
+            }
+        }
+    }
+}

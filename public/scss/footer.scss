@@ -1,0 +1,21 @@
+@import "./variables.scss";
+
+.footer-container {
+    width: 100%;
+    background: $dark-blue;
+    height: 4.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0 4rem;
+
+    i {
+        color: white;
+        font-size: 35px;
+        transition: 1s ease;
+
+        &:hover {
+            transform: rotate(360deg);
+        }
+    }
+}

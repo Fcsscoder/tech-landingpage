@@ -1,0 +1,73 @@
+@media screen and (max-width:1024px){
+    .aside-container{
+        #main-svg{
+        display: none;
+        }
+    }
+
+    .services-container {
+        margin: 0;
+        background: $white-color;
+        
+        ul {
+            display: block;
+            li{
+                i, p, h3{
+                    color: $dark-blue
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+    .aside-container {
+        display: block;
+        margin-top: 13rem;
+        text-align: center;
+
+        #logomarca-aside {
+        font-size: 1.5rem;
+        color: $dark-blue;
+        display: block;
+        margin: 70px auto;
+        }
+    }
+    
+    .message-container {
+
+        #name, #email, #message {
+            width: 400px;
+    }
+
+    #message-title {
+        font-size: 20px;
+    }
+
+        .input-container {
+           flex-direction: column;
+    }
+}
+
+    .navbar-container{
+        justify-content: center;
+        #logomarca {
+            display: none;
+        }
+    }
+    .services-container {
+        padding: 0;
+        margin: 0;
+        background: $white-color;
+        
+        ul {
+            display: block;
+            li{
+                i, p, h3{
+                    color: $dark-blue
+                }
+            }
+        }
+    }
+}

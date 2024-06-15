@@ -1,0 +1,111 @@
+@import "./variables.scss";
+
+.message-container {
+    padding: 3rem 0 4rem 0;
+    margin: 0.5rem 0px;
+    text-align: center;
+    position: relative;
+
+    h3 {
+        text-align: center;
+        margin: 2rem 0;
+        font-size: 1.8rem;
+        color: $dark-blue;
+    }
+
+    #cat-svg {
+        width: 400px;
+    }
+
+    .form-container {
+        margin: 0 auto;
+        position: relative;
+        
+        input, textarea{
+            width: 100px;
+            padding: 0.7rem 1.2rem;
+            font-size: 1rem;
+            border-radius: 5px;
+            border: 1px solid $dark-blue;
+            margin: 0px 0.7rem 0.3rem;
+            color: $dark-blue;
+        }
+
+        .input-container{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 0.2;
+
+            .name-input, .email-input {
+                color: $dark-blue;
+                position: relative;
+
+                input {
+                    padding-left: 3rem;
+                    width: 250px;
+                    border: transparent;
+                    border-bottom: 1px solid $dark-blue;
+                }
+
+                .email-icon {
+                    position: absolute;
+                    top: 11.5px;
+                    left: 26.5px;
+                }
+
+                .name-icon {
+                    position: absolute;
+                    top: 11px;
+                    left: 28px;
+                }
+            }
+        }
+
+        input::placeholder{
+            color: $dark-blue;
+        }
+
+        input:focus {
+            outline: none;
+            border: 1px solid $dark-blue;
+        }
+
+        textarea {
+            display: block;
+            width: 470px;
+            height: 150px;
+            margin: 1.7rem auto 1.7rem auto
+        }
+
+        textarea::placeholder {
+            color: $dark-blue
+        }
+
+        textarea:focus {
+            outline: none;
+            color: $dark-blue
+
+        }
+
+        #btn-submit{
+            background-color: $dark-blue;
+            border: none;
+            color: $white-color;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        #btn-submit:hover {
+            background-color: $white-color;
+            color: $dark-blue;
+            outline: 1px $dark-blue solid;
+        }
+    }
+}
+
+// message 2
+
+
+
+

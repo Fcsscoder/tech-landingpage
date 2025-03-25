@@ -4,9 +4,9 @@
     <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML">
 </p>
 
-<h1 align="center">To-Do List</h1>
+<h1 align="center">Landing Page</h1>
 
-<p align="center">
+<p>
   O projeto é um site para uma empresa de tecnologia fictícia, desenvolvido com HTML, SASS e JavaScript. Ele apresenta um layout moderno e responsivo, com foco em destacar os serviços e produtos da empresa, oferecendo uma navegação interativa e visualmente atraente. O uso de SASS proporciona um design flexível e fácil de manter, enquanto o JavaScript adiciona funcionalidades dinâmicas, como animações e interações com o usuário.
 </p>
 
